@@ -1,0 +1,169 @@
+html{
+  scroll-behavior: smooth;
+}
+.mnulist{
+    display: none;
+    right: 0;
+}
+
+
+/* .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  } */
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  /* .topnav #myLinks {
+    display: none;
+  }
+   */
+  /* Style navigation menu links */
+  /* .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  } */
+  
+  /* Style the hamburger menu */
+  /* .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  } */
+  
+  /* Add a grey background color on mouse-over */
+  /* .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  } */
+  
+  /* Style the active link (or home/logo) */
+  /* .active {
+    background-color: #04AA6D;
+    color: white;
+  } */
+
+
+  /* -----------index-slider---------------- */
+.swiperbtn {
+     size:8px;
+     font-size:8px;
+}
+
+
+/* --------------------------Sticky header--------------------- */
+/* 
+#navbar {
+  overflow: hidden;
+} */
+
+/* #navbar a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  color: white;
+} */
+
+
+/* .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+} */
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 20px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  /* overflow: auto;  */
+ background-color: rgb(0, 0, 0);  /* Fallback color */
+  background-color: rgba(0,0,0);/*  Black w/ opacity */
+
+ 
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: black;
+  margin: auto;
+  padding: 10px;
+  /* border: 1px solid #888; */
+  width: 100%;
+  height: 100%;
+  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19); */
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  /* overflow-y: scroll;  */
+  max-height:100%;  
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: rgb(248, 226, 226);
+  float: right;
+  /* margin-right: 10px; */
+  margin:auto;
+  padding: 5px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(52, 50, 50);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* .modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+} */
+
+.modal-body {padding: 10px 16px;}
+
+/* .modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+} */
+
+
